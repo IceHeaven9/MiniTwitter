@@ -10,6 +10,7 @@ export const LoginPage = () => {
 		try {
 			const response = await fetch(
 				import.meta.env.VITE_API_URL + `/users/login`,
+
 				{
 					method: "POST",
 					headers: {
